@@ -27,38 +27,5 @@ function activeFAQ(faq){
     }
 
 
-
-    
-
- 
 }
 
-
-const counts = document.querySelectorAll('.count')
-counts.forEach((counter) => {
-   
-      
-        // if(count < target){
-           
-        //     setTimeout(upData, 1)
-        // }else{
-        //  counter.innerText = target
-        // }   
-
-        const target = counter.getAttribute('data-target');
-        let count = 0;
-        console.log(target);
-
-
-        setInterval(()=>{
-            if(count>=target){
-                clearInterval;
-                
-            }else{
-                count = count+1;
-                counter.innerText = count+"%";
-
-               
-            }
-        },15)
-});
