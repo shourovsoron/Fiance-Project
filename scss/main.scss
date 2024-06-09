@@ -12,6 +12,7 @@
 @import "../scss/manage-team/manage-team.scss";
 @import "../scss/grow-business/grow-business.scss";
 @import "../scss/faq-section/faq.scss";
+@import "../scss/responsive/responsive.scss";
 
 
 
@@ -24,7 +25,7 @@
 }
 
 .container{
-    max-width: 1230px;
+    max-width: 1250px;
     margin: 0px auto;
     padding: 0px 8px;
 }

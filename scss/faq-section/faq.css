@@ -4,8 +4,6 @@
   padding-bottom: 100px;
   justify-content: space-between;
   flex-wrap: wrap;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
 }
 .faq-section .faq-content .faq-left h2 {
   font-size: 60px;

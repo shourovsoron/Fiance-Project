@@ -580,7 +580,6 @@
   padding-bottom: 100px;
   justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 100px;
 }
 .faq-section .faq-content .faq-left h2 {
   font-size: 60px;
@@ -630,6 +629,92 @@
   transition: all 1s;
 }
 
+@media (max-width: 768px) {
+  .announce {
+    display: none;
+  }
+  .hero .hero-content {
+    justify-content: center;
+  }
+  .hero .hero-content .hero-left h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .hero .hero-content .hero-left form input[type=submit] {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .hero .hero-content .hero-right .hero-img .img-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+  }
+  .feature .feature-content .des p {
+    font-size: 27px;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+  }
+  .client-section .client-content .client-logo {
+    gap: 20px;
+  }
+  .company-admin .company-admin-content {
+    justify-content: center;
+  }
+  .company-admin .company-admin-content .company-admin-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .company-admin .company-admin-content .company-admin-right {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .manage-team .manage-team-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .manage-team .manage-team-content .team-content-right h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .grow-business-section .grow-business-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .grow-business-section .grow-business-content .grow-business-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .employe {
+    padding-top: 30.67px;
+    padding-bottom: 20.67px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .growth {
+    padding-top: 30.67px;
+    padding-bottom: 20.67px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .employe h2 {
+    font-size: 45px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .growth h2 {
+    font-size: 45px;
+  }
+  .faq-section .faq-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .faq-section .faq-content .faq-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .faq-section .faq-content .faq-right .faq .faq-questions {
+    font-size: 24px;
+  }
+  .faq-section .faq-content .faq-right .faq {
+    padding: 0px 0px;
+    border-top: 1px solid #D0D0D0;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -638,7 +723,7 @@
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1250px;
   margin: 0px auto;
   padding: 0px 8px;
 }
