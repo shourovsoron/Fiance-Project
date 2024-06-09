@@ -1,0 +1,93 @@
+.grow-business-section {
+  padding-top: 25px;
+  padding-bottom: 100px;
+  background: #F2F4F5;
+}
+.grow-business-section .grow-business-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.grow-business-section .grow-business-content .grow-business-left h2 {
+  max-width: 577px;
+  font-size: 60px;
+  font-weight: 72.61px;
+  font-weight: 700;
+  color: #000;
+}
+.grow-business-section .grow-business-content .grow-business-left p {
+  max-width: 610px;
+  font-size: 18.33px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 27px;
+}
+.grow-business-section .grow-business-content .grow-business-right {
+  width: 100%;
+  display: flex;
+  max-width: 455px;
+  justify-content: right;
+  align-items: center;
+}
+.grow-business-section .grow-business-content .grow-business-right .company-logo {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  height: -moz-max-content;
+  height: max-content;
+}
+.grow-business-section .grow-business-content .grow-business-right .company-logo img:nth-child(3) {
+  scale: 2;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 19.17px;
+       column-gap: 19.17px;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .employe {
+  background: #655CFE;
+  border-radius: 16.67px;
+  padding-top: 41.67px;
+  padding-bottom: 41.67px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .employe p {
+  font-size: 20px;
+  line-height: 13.33px;
+  font-weight: 400px;
+  color: white;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .employe h2 {
+  font-size: 66.67px;
+  line-height: 66.67px;
+  font-weight: 600;
+  color: white;
+  margin-top: 17.17px;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .growth {
+  background: #F5F6FF;
+  border-radius: 16.67px;
+  padding-top: 41.67px;
+  padding-bottom: 41.67px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .growth p {
+  font-size: 20px;
+  line-height: 13.33px;
+  font-weight: 400px;
+  color: rgb(0, 0, 0);
+}
+.grow-business-section .grow-business-content .grow-business-right .counter .growth h2 {
+  font-size: 66.67px;
+  line-height: 66.67px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: 17.17px;
+  position: relative;
+}/*# sourceMappingURL=grow-business.css.map */

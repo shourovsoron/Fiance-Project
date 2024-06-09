@@ -1,0 +1,92 @@
+.mobileDrawer{
+    height: 100%;
+    background: #ffffff;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: -100%;
+    transition: all 0.7s;
+    left: -100%;
+    box-shadow: 0px 0px 28px #808080;
+    width: 80%;
+
+    ul{
+
+        padding-top: 50px;
+        margin-left: 50px;
+        list-style: none;
+        // text-decoration: none;
+    
+        li a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 0px;
+            color: #000;
+            &:hover{
+                color: #75bdf8;
+            }
+
+            
+        }
+    }
+}
+
+
+.mobileDrawerContent{
+    position: relative;
+    height: 100%;
+
+    .closebtn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 22px;
+        cursor: pointer;
+
+    }
+
+    .mobileDrawerbtn{
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        
+        a{
+            font-size:13.33px;
+            line-height: 16px;
+            display: inline-block;
+            text-decoration: none;
+            color: #000000;
+          
+
+        }
+        
+        .get-started{
+            font-size:13.33px;
+            line-height: 16px;
+            padding: 14px 25px;
+            background: #000000;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 84px;
+
+        }
+    }
+}
+
+.ShowDrawer{
+
+    left: 0px;
+ 
+}
+
+.OpenMenu{
+    font-size: 22px;
+    display: none;
+    cursor: pointer;
+}
+

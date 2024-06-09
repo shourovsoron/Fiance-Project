@@ -1,0 +1,135 @@
+.announce{
+    background-color: #FF83D5;
+    width: 100%;
+
+
+
+    .announce-content{
+        display: flex;
+        height: 100%;
+        height: 43px;
+        justify-content: center;
+        align-items: center;
+        span{
+            text-transform: capitalize;
+            display: inline-block;
+            background: #fff;
+            padding: 2px 12px;
+            border-radius: 13px;
+            margin-right: 15px;
+
+        }//Span End
+
+        p{
+            color: #fff;
+            font-weight: 400;
+            size: 11.67px;
+
+            a{
+                color: #fff;
+
+            }//  A tag End
+        }// P tag End
+
+    }//Announce Content End
+
+}//Announce End
+
+
+.header{
+
+    .header-area{
+        display: flex;
+        height: 67px;
+        align-items: center;
+        justify-content: space-between;
+
+        .brand-area{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            img{
+                max-width: 24px;
+                display: block;
+
+            }
+
+            span{
+                display: inline-block;
+                color: #000000;
+                font-size: 25px;
+                font-weight: 500px;
+
+            }
+
+
+        }//Brand Area End
+        .menu-area{
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                gap: 26px;
+
+                li{
+
+                    a{
+                        font-size:13.33px;
+                        line-height: 16px;
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #000000;
+                    }
+
+                }
+                li a:hover{
+                    color: #655CFE;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+            }
+        }// Menu Area End
+
+        .hidden{
+            display: none;
+
+        }
+
+        
+
+        .header-right-btn{
+            display: flex;
+            gap: 41px;
+            justify-content: center;
+            align-items: center;
+            
+            a{
+                font-size:13.33px;
+                line-height: 16px;
+                display: inline-block;
+                text-decoration: none;
+                color: #000000;
+              
+
+            }
+            
+            .get-started{
+                font-size:13.33px;
+                line-height: 16px;
+                padding: 15px 30px;
+                background: #000000;
+                display: inline-block;
+                text-decoration: none;
+                color: #fff;
+                border-radius: 84px;
+
+            }
+        }//Header btn End
+
+    }//Header Area End
+
+
+
+
+}

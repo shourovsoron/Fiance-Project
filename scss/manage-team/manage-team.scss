@@ -1,0 +1,97 @@
+.manage-team{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    background: #F2F4F5;
+
+    .manage-team-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .team-content-left{
+            width: 100%;
+            display: flex;
+            max-width: 455px;
+            justify-content: right;
+            align-items: center;
+
+
+            .team-member{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                column-gap: 13.33px;
+                padding: 11.7px 0px;
+                border-top: 1px solid #EDEDED;
+
+                .member-image{
+                    width: 100%;
+                    display: inline-block;
+                    max-width: 43.33px;                   
+                }
+
+                .member-name{
+                    font-size: 16.67px;
+                    line-height: 13.33px;
+                    font-weight: 400;
+                    color: #000;
+
+                }
+
+                .member-position{
+                    font-size: 8.33px;
+                    line-height: 10px;
+                    font-weight: 400;
+                    color: #A5A5A5;
+                    margin-top: 7.67px;
+
+                }
+
+                a{
+                    display: inline-block;
+                    margin-left: auto;
+                    margin-top: -20px;
+                }
+
+                &:first-child {
+                    margin-top: 17.66px;
+                    border-top: none;
+                }
+            }//Team Member End
+
+            
+        }
+
+        .team-member:first-child{
+            margin-top: 17.66px;
+        }
+
+        .team-content-right{
+            
+            h2{
+                max-width: 577px;
+                font-size: 60px;
+                font-weight: 72.61px;
+                font-weight: 700;
+                color: #000;
+            }
+
+            p{
+                max-width: 610px;
+                font-size: 18.33px;
+                line-height: 30px;
+                font-weight: 400;
+                margin-top: 27px;
+            }
+
+
+        }
+
+    }
+
+
+
+}
+

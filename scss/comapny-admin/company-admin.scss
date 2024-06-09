@@ -1,0 +1,82 @@
+.company-admin{
+    padding-top: 66px;
+    padding-bottom: 100px;
+    background: #F2F4F5;
+
+
+    .company-admin-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .company-admin-left{
+            h2{
+                max-width: 577px;
+                font-size: 60px;
+                font-weight: 72.61px;
+                font-weight: 700;
+                color: #000;
+            }
+
+            p{
+                max-width: 610px;
+                font-size: 18.33px;
+                line-height: 30px;
+                font-weight: 400;
+                margin-top: 27px;
+            }
+
+            
+
+        }//company-admin-left end
+
+
+        .company-admin-right{
+            width: 100%;
+            display: flex;
+            max-width: 455px;
+            justify-content: right;
+            align-items: center;
+
+            
+           
+
+
+            .task{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 35.83px;
+
+
+
+                .progress{
+                    flex-grow: 1;
+                    margin-left: 13.33px;
+
+                    p{
+                        margin-bottom: 10px;
+                    }
+
+                }
+
+                .ProgressDisplay{
+                    margin-left: 35px;
+                    width: 30px;
+
+                }
+            }
+
+
+
+
+
+        }
+
+
+    }//company admin content end
+
+
+}

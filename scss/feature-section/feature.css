@@ -1,0 +1,40 @@
+.feature {
+  padding: 47px 0px;
+  background: #655CFE;
+  color: #fff;
+}
+.feature .feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature .feature-content .des p {
+  max-width: 604px;
+  font-size: 33.33px;
+  line-height: 41.67px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -2px;
+}
+.feature .feature-content .features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 45px;
+  justify-content: space-between;
+}
+.feature .feature-content .features-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 21px;
+}
+.feature .feature-content .features-card img {
+  display: inline-block;
+}
+.feature .feature-content .features-card p {
+  width: 142px;
+  font-size: 18.33px;
+  line-height: 25px;
+}/*# sourceMappingURL=feature.css.map */

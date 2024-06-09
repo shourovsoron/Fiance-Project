@@ -1,0 +1,17 @@
+.client-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #F2F4F5;
+}
+.client-section .client-content .client-text {
+  text-align: center;
+}
+.client-section .client-content .client-logo {
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=client-section.css.map */

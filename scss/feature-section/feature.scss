@@ -1,0 +1,53 @@
+.feature{
+    padding: 47px 0px;
+    background: #655CFE;
+    color: #fff;
+
+    .feature-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .des{
+
+            p{
+                max-width: 604px;
+                font-size: 33.33px;
+                line-height: 41.67px;
+                font-weight: 400;
+                color: #ffffff;
+                letter-spacing: -2px;
+
+            }
+        }//description End
+
+        .features{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap:45px;
+            justify-content: space-between;
+
+        }//Features card End
+        .features-card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 21px;
+
+            img{
+                display: inline-block;
+
+
+            }
+
+            p{
+                width: 142px;
+                font-size: 18.33px;
+                line-height: 25px;
+            }
+        }
+
+    }//Feature Content End
+}
