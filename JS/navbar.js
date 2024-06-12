@@ -133,5 +133,25 @@ mobileDrwaerContent.addEventListener("click", (e)=>{
 
 
 
-console.log(header);
+// for Footer==============//
 
+
+let mainFooter = document.querySelector(".main-footer");
+let faqSection = document.querySelector(".faq-section");
+let FooterTop = document.querySelector(".footer-top");
+let footerTopHeight = FooterTop.offsetHeight;
+let marginTop = (footerTopHeight/2);
+mainFooter.style.marginTop = `-${marginTop-100}px`
+faqSection.style.marginBottom = `${marginTop+120}px`
+
+
+
+window.addEventListener("resize", resizeFooter);
+
+function resizeFooter(){
+    let footerTopHeight = FooterTop.offsetHeight;
+    let marginTop = (footerTopHeight/2);
+    mainFooter.style.marginTop = `-${marginTop-100}px`;
+    faqSection.style.marginBottom = `${marginTop+120}px`
+
+}

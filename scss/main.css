@@ -582,6 +582,7 @@
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-bottom: 295px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -633,11 +634,158 @@
   transition: all 1s;
 }
 
+.footer-section {
+  background: #01112D;
+  position: relative;
+}
+.footer-section .footer-content .footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #FF83D5;
+  color: #fff;
+  border-radius: 25px;
+  padding: 85px 50px;
+  position: relative;
+  transform: translateY(-50%);
+}
+.footer-section .footer-content .footer-top .footer-top-left h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 71.67px;
+  width: 100%;
+  max-width: 628px;
+}
+.footer-section .footer-content .footer-top .footer-top-right {
+  width: 100%;
+  max-width: 467px;
+}
+.footer-section .footer-content .footer-top .footer-top-right p {
+  font-size: 18.33px;
+  line-height: 30px;
+}
+.footer-section .footer-content .footer-top .footer-top-right form {
+  margin-top: 20px;
+}
+.footer-section .footer-content .footer-top .footer-top-right form input[type=email] {
+  width: 100%;
+  max-width: 290px;
+  background: #F5F5F5;
+  border-radius: 83.33px;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+.footer-section .footer-content .footer-top .footer-top-right form input[type=submit] {
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  background: #000000;
+  color: #fff;
+  border-radius: 83px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.footer-section .footer-content .main-footer {
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .announce {
+    display: none;
+  }
+  .hero .hero-content {
+    justify-content: center;
+  }
+  .hero .hero-content .hero-left h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .hero .hero-content .hero-left form input[type=submit] {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .hero .hero-content .hero-right .hero-img .img-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+  }
+  .feature .feature-content .des p {
+    font-size: 27px;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+  }
+  .client-section .client-content .client-logo {
+    gap: 20px;
+  }
+  .company-admin .company-admin-content {
+    justify-content: center;
+  }
+  .company-admin .company-admin-content .company-admin-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .company-admin .company-admin-content .company-admin-right {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .manage-team .manage-team-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .manage-team .manage-team-content .team-content-right h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .grow-business-section .grow-business-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .grow-business-section .grow-business-content .grow-business-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .employe {
+    padding-top: 30.67px;
+    padding-bottom: 20.67px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .growth {
+    padding-top: 30.67px;
+    padding-bottom: 20.67px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .employe h2 {
+    font-size: 45px;
+  }
+  .grow-business-section .grow-business-content .grow-business-right .counter .growth h2 {
+    font-size: 45px;
+  }
+  .faq-section .faq-content {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .faq-section .faq-content .faq-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .faq-section .faq-content .faq-right .faq .faq-questions {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .faq-section .faq-content .faq-right .faq {
+    padding: 0px 0px;
+    border-top: 1px solid #D0D0D0;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #F2F4F5;
 }
 
 .container {

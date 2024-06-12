@@ -7,7 +7,7 @@ function startCounter(){
 
         const target = counter.getAttribute('data-target');
         let count = 0;
-        console.log(target);
+        // console.log(target);
 
 
         setInterval(()=>{

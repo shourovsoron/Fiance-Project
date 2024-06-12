@@ -1,7 +1,10 @@
-.faq-section .faq-content {
-  display: flex;
+.faq-section {
+  background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.faq-section .faq-content {
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
