@@ -643,9 +643,9 @@
   flex-wrap: wrap;
 }
 .faq-section .faq-content .faq-left {
-  animation-timeline: view(90% 0%);
+  animation-timeline: view(80% 0%);
   position: relative;
-  animation-name: LeftToRight;
+  animation-name: BottomToTop;
   animation-fill-mode: both;
   transform-origin: bottom;
   animation-duration: 1ms; /* Firefox requires this to apply the animation */
@@ -669,9 +669,9 @@
 .faq-section .faq-content .faq-right {
   width: 100%;
   max-width: 616px;
-  animation-timeline: view(90% 0%);
+  animation-timeline: view(80% 0%);
   position: relative;
-  animation-name: rightToLeft;
+  animation-name: BottomToTop;
   animation-fill-mode: both;
   transform-origin: bottom;
   animation-duration: 1ms; /* Firefox requires this to apply the animation */
