@@ -9,6 +9,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.company-admin .company-admin-content .company-admin-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .company-admin .company-admin-content .company-admin-left h2 {
   max-width: 577px;
   font-size: 60px;
@@ -29,6 +38,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .company-admin .company-admin-content .company-admin-right .task {
   display: flex;

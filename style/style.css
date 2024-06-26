@@ -350,6 +350,15 @@
   padding-bottom: 100px;
   background: #F2F4F5;
 }
+.client-section .client-content {
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .client-section .client-content .client-text {
   text-align: center;
 }
@@ -373,6 +382,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.company-admin .company-admin-content .company-admin-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .company-admin .company-admin-content .company-admin-left h2 {
   max-width: 577px;
   font-size: 60px;
@@ -393,6 +411,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .company-admin .company-admin-content .company-admin-right .task {
   display: flex;
@@ -429,6 +454,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .manage-team .manage-team-content .team-content-left .team-member {
   display: flex;
@@ -468,6 +500,15 @@
 .manage-team .manage-team-content .team-member:first-child {
   margin-top: 17.66px;
 }
+.manage-team .manage-team-content .team-content-right {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .manage-team .manage-team-content .team-content-right h2 {
   max-width: 577px;
   font-size: 60px;
@@ -494,6 +535,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.grow-business-section .grow-business-content .grow-business-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .grow-business-section .grow-business-content .grow-business-left h2 {
   max-width: 577px;
   font-size: 60px;
@@ -514,6 +564,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .grow-business-section .grow-business-content .grow-business-right .company-logo {
   margin-top: 55px;
@@ -585,6 +642,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.faq-section .faq-content .faq-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .faq-section .faq-content .faq-left h2 {
   font-size: 60px;
   font-weight: 700;
@@ -603,6 +669,13 @@
 .faq-section .faq-content .faq-right {
   width: 100%;
   max-width: 616px;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .faq-section .faq-content .faq-right .faq {
   padding: 15px 0px;
@@ -652,6 +725,15 @@
   padding: 85px 50px;
   transform: translateY(-50%);
 }
+.footer-section .footer-content .footer-top .footer-top-left {
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .footer-section .footer-content .footer-top .footer-top-left h2 {
   font-size: 56px;
   font-weight: 700;
@@ -662,6 +744,13 @@
 .footer-section .footer-content .footer-top .footer-top-right {
   width: 100%;
   max-width: 467px;
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .footer-top .footer-top-right p {
   font-size: 18.33px;
@@ -696,6 +785,13 @@
   justify-content: space-between;
   border-bottom: 1px solid #fff;
   padding-bottom: 50px;
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .main-footer h3 {
   font-size: 20px;
@@ -967,6 +1063,30 @@ body {
   }
   100% {
     width: 100%;
+  }
+}
+@keyframes rightToLeft {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@keyframes LeftToRight {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes BottomToTop {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0px;
   }
 }
 

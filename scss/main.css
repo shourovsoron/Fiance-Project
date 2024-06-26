@@ -97,6 +97,7 @@
 .hero {
   padding-top: 66.67px;
   padding-bottom: 83px;
+  background-color: #fff;
 }
 .hero .hero-content {
   display: flex;
@@ -373,6 +374,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.company-admin .company-admin-content .company-admin-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .company-admin .company-admin-content .company-admin-left h2 {
   max-width: 577px;
   font-size: 60px;
@@ -393,6 +403,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .company-admin .company-admin-content .company-admin-right .task {
   display: flex;
@@ -429,6 +446,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .manage-team .manage-team-content .team-content-left .team-member {
   display: flex;
@@ -469,6 +493,15 @@
 .manage-team .manage-team-content .team-member:first-child {
   margin-top: 17.66px;
 }
+.manage-team .manage-team-content .team-content-right {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .manage-team .manage-team-content .team-content-right h2 {
   max-width: 577px;
   font-size: 60px;
@@ -495,6 +528,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.grow-business-section .grow-business-content .grow-business-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .grow-business-section .grow-business-content .grow-business-left h2 {
   max-width: 577px;
   font-size: 60px;
@@ -515,6 +557,13 @@
   max-width: 455px;
   justify-content: right;
   align-items: center;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .grow-business-section .grow-business-content .grow-business-right .company-logo {
   margin-top: 55px;
@@ -578,13 +627,24 @@
   position: relative;
 }
 
-.faq-section .faq-content {
-  display: flex;
+.faq-section {
+  background: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-bottom: 295px;
+}
+.faq-section .faq-content {
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.faq-section .faq-content .faq-left {
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: LeftToRight;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .faq-section .faq-content .faq-left h2 {
   font-size: 60px;
@@ -604,6 +664,13 @@
 .faq-section .faq-content .faq-right {
   width: 100%;
   max-width: 616px;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: rightToLeft;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .faq-section .faq-content .faq-right .faq {
   padding: 15px 0px;
@@ -636,18 +703,32 @@
 
 .footer-section {
   background: #01112D;
-  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+}
+.footer-section .footer-content {
+  width: 100%;
 }
 .footer-section .footer-content .footer-top {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  width: 100%;
   background: #FF83D5;
   color: #fff;
   border-radius: 25px;
   padding: 85px 50px;
-  position: relative;
   transform: translateY(-50%);
+}
+.footer-section .footer-content .footer-top .footer-top-left {
+  animation-timeline: view(40% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .footer-top .footer-top-left h2 {
   font-size: 56px;
@@ -659,6 +740,13 @@
 .footer-section .footer-content .footer-top .footer-top-right {
   width: 100%;
   max-width: 467px;
+  animation-timeline: view(90% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .footer-top .footer-top-right p {
   font-size: 18.33px;
@@ -687,7 +775,67 @@
   cursor: pointer;
 }
 .footer-section .footer-content .main-footer {
-  min-height: 400px;
+  background: #01112D;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+.footer-section .footer-content .main-footer h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-section .footer-content .main-footer .footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: space-between;
+  -moz-column-gap: 160px;
+       column-gap: 160px;
+}
+.footer-section .footer-content .main-footer .footer-menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.footer-section .footer-content .main-footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  padding: 5px 0px;
+  display: inline-block;
+  size: 15px;
+  font-weight: 310;
+}
+.footer-section .footer-content .footer-bottom {
+  display: flex;
+  -moz-column-gap: 162px;
+       column-gap: 162px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  padding: 38px 0px;
+}
+.footer-section .footer-content .footer-bottom p {
+  color: white;
+}
+.footer-section .footer-content .footer-bottom ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-section .footer-content .footer-bottom ul li {
+  padding: 0px 7px;
+  border-right: 1px solid #fff;
+  display: inline-block;
+}
+.footer-section .footer-content .footer-bottom ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-section .footer-content .footer-bottom ul li:last-child {
+  border-right: none;
 }
 
 @media (max-width: 768px) {
@@ -775,6 +923,27 @@
   .faq-section .faq-content .faq-right .faq {
     padding: 0px 0px;
     border-top: 1px solid #D0D0D0;
+  }
+  .footer-section .footer-content .footer-top .footer-top-left h2 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  .footer-section .footer-content .footer-top {
+    align-items: center;
+    width: 100%;
+    background: #FF83D5;
+    color: #fff;
+    border-radius: 25px;
+    padding: 50px 20px;
+    transform: translateY(-50%);
+  }
+  .footer-section .footer-content .footer-top .footer-top-right form input[type=submit] {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-bottom: 70px;
   }
 }
 * {
@@ -886,5 +1055,29 @@ body {
   }
   100% {
     width: 100%;
+  }
+}
+@keyframes rightToLeft {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@keyframes LeftToRight {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes BottomToTop {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0px;
   }
 }/*# sourceMappingURL=main.css.map */

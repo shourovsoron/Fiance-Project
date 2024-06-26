@@ -53,15 +53,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
 .Progressbar{
     position: relative;
     width: 100%;
@@ -83,9 +74,6 @@ body{
     
 
 }
-
-
-
 
 // PC window Box Start
 
@@ -159,4 +147,52 @@ body{
 @keyframes example {
     0%   {width: 0px;}
     100% {width: 100%;}
-  }
+}
+
+
+@keyframes rightToLeft {
+    from {
+        right: -200px;
+
+      }
+    
+      to {
+        right: 0px;
+      
+      }
+}
+
+@keyframes LeftToRight {
+    from {
+        left: -200px;
+      }
+    
+      to {
+        left: 0px;
+      }
+}
+
+
+
+@keyframes BottomToTop {
+    from {
+        bottom: -100px;
+
+      }
+    
+      to {
+        bottom: 0px;
+      
+      }
+}
+
+
+// .animation {
+//     animation-timeline: view(block 50% 10%);
+  
+//     animation-name: grow;
+//     animation-fill-mode: both;
+//     animation-duration: 1ms; /* Firefox requires this to apply the animation */
+//     animation-timing-function: linear;
+//   }
+  

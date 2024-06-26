@@ -26,6 +26,15 @@
                 font-weight: 400;
                 margin-top: 27px;
             }
+
+            animation-timeline: view( 90% 0%);
+            position: relative;
+            animation-name: LeftToRight;
+            animation-fill-mode: both;
+            transform-origin: bottom;
+            animation-duration: 1ms; /* Firefox requires this to apply the animation */
+            animation-timing-function: linear;
+
         }
 
 
@@ -111,6 +120,16 @@
 
             }
             
+
+
+            animation-timeline: view( 90% 0%);
+            position: relative;
+            animation-name: rightToLeft;
+            animation-fill-mode: both;
+            transform-origin: bottom;
+            animation-duration: 1ms; /* Firefox requires this to apply the animation */
+            animation-timing-function: linear;
+
 
         }
     }

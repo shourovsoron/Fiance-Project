@@ -9,6 +9,7 @@ function activeFAQ(faq){
     const currentFAQ = faq.parentNode;
     
     const active = document.querySelector(".active-faq");
+
   
     if (active && !currentFAQ.classList.contains("active-faq")) {
       active.classList.remove("active-faq");

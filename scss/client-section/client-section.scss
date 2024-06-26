@@ -23,5 +23,14 @@
 
         }//Client Logo End
 
+
+        animation-timeline: view( 80% 0%);
+            position: relative;
+            animation-name: BottomToTop;
+            animation-fill-mode: both;
+            transform-origin: bottom;
+            animation-duration: 1ms; /* Firefox requires this to apply the animation */
+            animation-timing-function: linear;
+
     }//Client Content End
 }

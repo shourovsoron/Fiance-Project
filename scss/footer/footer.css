@@ -18,6 +18,15 @@
   padding: 85px 50px;
   transform: translateY(-50%);
 }
+.footer-section .footer-content .footer-top .footer-top-left {
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
 .footer-section .footer-content .footer-top .footer-top-left h2 {
   font-size: 56px;
   font-weight: 700;
@@ -28,6 +37,13 @@
 .footer-section .footer-content .footer-top .footer-top-right {
   width: 100%;
   max-width: 467px;
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .footer-top .footer-top-right p {
   font-size: 18.33px;
@@ -62,6 +78,13 @@
   justify-content: space-between;
   border-bottom: 1px solid #fff;
   padding-bottom: 50px;
+  animation-timeline: view(80% 0%);
+  position: relative;
+  animation-name: BottomToTop;
+  animation-fill-mode: both;
+  transform-origin: bottom;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
 }
 .footer-section .footer-content .main-footer h3 {
   font-size: 20px;

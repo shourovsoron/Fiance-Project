@@ -30,6 +30,15 @@
 
             }
 
+            animation-timeline: view( 90% 0%);
+            position: relative;
+            animation-name: LeftToRight;
+            animation-fill-mode: both;
+            transform-origin: bottom;
+            animation-duration: 1ms; /* Firefox requires this to apply the animation */
+            animation-timing-function: linear;
+
+
         }
 
         .faq-right{
@@ -85,6 +94,16 @@
 
                 }
             }
+
+
+
+            animation-timeline: view( 90% 0%);
+            position: relative;
+            animation-name: rightToLeft;
+            animation-fill-mode: both;
+            transform-origin: bottom;
+            animation-duration: 1ms; /* Firefox requires this to apply the animation */
+            animation-timing-function: linear;
 
 
         }
