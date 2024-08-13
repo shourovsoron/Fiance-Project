@@ -37,13 +37,14 @@ body{
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
+    
 }
 
 .container{
     max-width: 1250px;
     margin: 0px auto;
     padding: 0px 8px;
-    // overflow: hidden!important;
+    overflow-x: hidden!important;
 }
 
 .primary-button{
@@ -157,33 +158,33 @@ body{
 }
 
 
-@keyframes rightToLeft {
-    from {
-        right: -200px;
-        overflow-x: hidden
+// @keyframes rightToLeft {
+//     from {
+//         right: -200px;
 
 
 
-      }
+
+//       }
     
-      to {
-        right: 0px;
+//       to {
+//         right: 0px;
       
-      }
-}
+//       }
+// }
 
-@keyframes LeftToRight {
-    from {
-        left: -200px;
-        overflow-x: hidden
-
-
-      }
+// @keyframes LeftToRight {
+//     from {
+//         left: -200px;
     
-      to {
-        left: 0px;
-      }
-}
+
+
+//       }
+    
+//       to {
+//         left: 0px;
+//       }
+// }
 
 
 

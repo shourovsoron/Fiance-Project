@@ -855,6 +855,18 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    background: #F2F4F5;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 1250px;
+    margin: 0px auto;
+    padding: 0px 8px;
+    overflow-x: hidden !important;
+  }
   .announce {
     display: none;
   }
@@ -980,6 +992,7 @@ body {
   max-width: 1250px;
   margin: 0px auto;
   padding: 0px 8px;
+  overflow-x: hidden !important;
 }
 
 .primary-button {
@@ -1074,24 +1087,6 @@ body {
   }
   100% {
     width: 100%;
-  }
-}
-@keyframes rightToLeft {
-  from {
-    right: -200px;
-    overflow-x: hidden;
-  }
-  to {
-    right: 0px;
-  }
-}
-@keyframes LeftToRight {
-  from {
-    left: -200px;
-    overflow-x: hidden;
-  }
-  to {
-    left: 0px;
   }
 }
 @keyframes BottomToTop {

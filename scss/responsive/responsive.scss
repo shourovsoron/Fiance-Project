@@ -1,7 +1,17 @@
 @media (max-width: 768px) {
 
     body{
+        background: #F2F4F5;
+        width: 100%;
+        max-width: 100vw;
         overflow-x: hidden;
+    }
+    
+    .container{
+        max-width: 1250px;
+        margin: 0px auto;
+        padding: 0px 8px;
+        overflow-x: hidden!important;
     }
     .announce {
         display: none;
